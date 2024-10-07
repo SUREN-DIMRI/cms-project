@@ -1,0 +1,21 @@
+create table login(
+ID varchar(20),
+password varchar(20)
+);
+
+select * from login;
+
+create table signup(
+formno varchar(4),
+name varchar(20),
+gender varchar(10),
+dob varchar(10)
+);
+
+select * from signup;
+
+drop table signup;
+
+truncate table signup;
+
+show data_directory;
